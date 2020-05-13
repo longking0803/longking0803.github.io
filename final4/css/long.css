@@ -15,6 +15,10 @@
     font-family: fontHelventicalNeuveB;
     src: url("../font/helveticaneuebold.ttf");
 }
+@font-face {
+    font-family: fontArrusb;
+    src: url("../font/arrusb.ttf");
+}
 *{
 	padding: 0;
 	margin: 0;
@@ -34,7 +38,7 @@ body{
 nav{
 	position: fixed;
 	height: 100%;
-	width: 15%;
+	width: 8%;
 	list-style: none;
 	top:45%;
 	right: 0px;
@@ -49,10 +53,10 @@ logo{
 	z-index: 1;
 }
 nav ul li{
-	padding: 30px;
+	margin-bottom: 120px;
 	display: block;
 	transform: rotate(90deg);
-	font-size:12px;
+	font-size:15px;
 	font-family: fontCadaral;
 }
 a{
@@ -97,7 +101,7 @@ section .inside{
 }
 #trangchu h1{
 	position: absolute;
-	font-family: fontCadaral;
+	font-family: fontArrusb;
 	font-size: 80pt;
 	top: 279px; 
 	left: 647px;
@@ -133,7 +137,7 @@ section .inside{
 #vnhct p{
 	width: 480px;
 	height: 423px;
-	font-size: 20px;
+	font-size: 21px;
 }
 #vnhct h1{
 	font-size: 54px;
@@ -197,6 +201,15 @@ section .inside{
 		top:45%;
 		left: 10%;
 	}
+	nav{
+		width: 15%;
+		list-style: none;
+		top:30%;
+	}
+	nav ul li{
+		font-size: 12px;
+		margin-bottom: 100px;
+	}
 }
 @media screen and (max-width:414px)
 {
@@ -220,7 +233,7 @@ section .inside{
 		width: 100%;
 	}
 	#trangchu h1{
-		font-size: 80pt;
+		font-size: 60pt;
 		width: 280px;
 		padding: 0;
 		top:10%;
@@ -234,7 +247,7 @@ section .inside{
 	}
 	nav ul li{
 		font-size: 6px;
-		padding: 20px;
+		margin-bottom: 80px;
 	}
 	#trangchu img{
 		width: 100%;
