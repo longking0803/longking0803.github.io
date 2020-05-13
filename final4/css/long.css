@@ -102,10 +102,15 @@ section .inside{
 #trangchu h1{
 	position: absolute;
 	font-family: fontArrusb;
-	font-size: 80pt;
-	top: 279px; 
-	left: 647px;
+	text-transform: uppercase;
+	font-size: 60pt;
+	top: 30%; 
+	left: 30%;
 	z-index: 2;
+}
+#trangchu .h1speacial{
+	top: 40%; 
+	left: 50%;
 }
 #trangchu img{
 	height: 95%;
@@ -169,6 +174,10 @@ section .inside{
 }
 @media screen and (max-width:1024px)
 {
+	#trangchu .h1speacial{
+	  top: 52%; 
+	  left: 30%;
+	}
 	section{
 		width: auto;
 	}
@@ -232,11 +241,16 @@ section .inside{
 	logo img{
 		width: 100%;
 	}
-	#trangchu h1{
-		font-size: 60pt;
+	#trangchu h1, .h1speacial{
+		font-size: 50pt;
 		width: 280px;
 		padding: 0;
 		top:10%;
+		left: 10%;
+	}
+	#trangchu .h1speacial{
+		
+		top:28%;
 		left: 10%;
 	}
 	nav{
