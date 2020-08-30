@@ -1,0 +1,130 @@
+@font-face{font-family: BluuNext-Bold;
+	src: url("../fonts/BluuNext-Bold.otf");
+}
+body, html {
+  height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+logo{
+	position: absolute;
+  background: url("../img/LogoSimplify.png") no-repeat;
+  left: 5.21%;
+  top: 4.63%;
+  width: 195px;
+  height: 100px;
+  z-index: 17;
+}
+close{
+	cursor: pointer;
+	position: absolute;
+  background-image: url("../img/Close.png");
+  right: 5.21%;
+  top: 4.63%;
+  width: 32px;
+  height: 32px;
+  z-index: 17;
+}
+.container-fluid{
+	width: 80%;
+	position: relative;
+}
+.blogtitle {
+  font-size: 48px;
+  font-family: BluuNext-Bold;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+  line-height: 1.2;
+  position: absolute;
+  top: 201px;
+  z-index: 21;
+}
+
+.middle{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+	left: 50%;
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+a:hover{
+	text-decoration: none;
+	color:black;
+}
+.blogdetail, .blogdetail2{
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	float: left;
+	margin-top:305px;
+	height: 100%;
+}
+.blogdetail h1, .blogdetail2 h1{
+	text-transform: uppercase;
+	width: 79.04%;
+	font-size: 72px;
+	font-weight: 700;
+	margin-bottom: 75px;
+	font-family: 'Montserrat', sans-serif;
+}
+.blogdetail p, .blogdetail2 p{
+	margin: 25px 0;
+	font-weight: 500;
+	font-size: 30px;
+}
+.blogdetail img{
+	width: 100%;
+	height: auto;
+}
+.blogdetail2{
+	margin-top: 218px;
+}
+.blogdetail2 p{
+	margin: 25px 0;
+	line-height: 1.2;
+}
+.arrow1 {
+	z-index: 19;
+	top:983px;
+	left: 100px;
+	cursor: pointer;
+	position: fixed;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.bank{
+	list-style: none;
+	padding: 0;
+}
+.bank li{
+	width: 450px;
+	margin: 0 7px;
+	height: 320px;
+	display: inline-block;
+}
+.bank li img{
+	width: 446px;
+}
+.bank li p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+.hidescroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidescroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
