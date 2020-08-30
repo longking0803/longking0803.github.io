@@ -185,8 +185,13 @@ account img{
 	font-size: 24px;
 	font-weight: 400;
 }
-.Info:hover, .Info1:hover{
+.Info:hover, .Info1:hover a{
 	color: #ffd65c;
+	text-decoration: none;
+}
+.Info1 a{
+	text-decoration: none;
+	color: white;
 }
 .Info1{
 	border-right: solid white 2px;
