@@ -80,7 +80,8 @@ function updateCartTotal() {
 		var str=priceElement.innerText;
 		const search = '.';
 		const replaceWith = '';
-		const result = str.split(search).join(replaceWith);
+		var result = str.split(search).join(replaceWith);
+		result = result.replace('đ','')
         var price = parseFloat(result)
         var quantity = quantityElement.value
 		valuetotal = valuetotal + quantity
@@ -90,5 +91,5 @@ function updateCartTotal() {
 	document.getElementsByClassName('abcde')[0].innerText = valuetotal
     total = Math.round(total * 100) / 100
 	var moneyDots = total.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1.");
-    document.getElementsByClassName('cart-total-price')[0].innerText = moneyDots
+    document.getElementsByClassName('cart-total-price')[0].innerText = moneyDots + "đ"
 }
