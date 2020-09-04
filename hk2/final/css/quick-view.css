@@ -77,7 +77,7 @@ logo{
 	height: 2.5em;
 }
 .sp .shop-item-title{
-	font-size: 48px;
+	font-size: 44px;
 	height: 1.9em;
 }
 h2{
@@ -173,7 +173,10 @@ h2{
 .sp .quick-view-info{
 	padding: 0px;
 	padding-left: 2.2vw;
-	width: 680px;
+	width: 720px;
+}
+.sp .quick-view-info p{
+	width: 590px;
 }
 .sp .quick-view-image{
 	padding-right: 0vw;
