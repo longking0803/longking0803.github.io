@@ -387,6 +387,7 @@ login h2:active, #formbox h2:hover, #formbox h2:focus{
 	color: black;
 }
 login .Default {
+	font-family: 'Montserrat', sans-serif;
   border-width: 3px;
   border-style: solid;
 	font-weight: 600;
