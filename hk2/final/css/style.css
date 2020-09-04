@@ -675,6 +675,10 @@ search .searchtitile{
 	top: 50%;
 	left: 5px;
 }
+search .form-search span{
+	font-size: 30px;
+	font-weight: 500;
+}
 .formsearch{
 	display: inline-block;
 	min-width: 50px;
