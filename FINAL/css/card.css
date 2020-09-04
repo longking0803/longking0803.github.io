@@ -1,0 +1,108 @@
+@font-face{font-family: BluuNext-Bold;
+	src: url("../fonts/BluuNext-Bold.otf");
+}
+logo{
+	background: url("../img/LogoSimplify.png") no-repeat;
+}
+#Cartcontainer{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	width:90vw;
+	left:0;
+  	right:0;
+	margin: 0 auto;
+	position: absolute;
+	top: 18.24%;
+}
+#Cartcontainer h1{
+	text-align: center;
+	font-size: 72px;
+  	font-weight: 700;
+  	line-height: 1.2;
+}
+.cart-item{
+    width: 50%;
+}
+.cart-price{
+	width: 16.2%;
+	position: relative;
+	text-transform: none;
+}
+.cart-quantity{
+	width: 16.9%;
+	position: relative;
+}
+.cart-total{
+	width: 16.9%;
+	position: relative;
+}
+.cart-item-title {
+    color: #333;
+    margin-left: 1em;
+}
+
+.cart-item-image {
+    width: 145px;
+  height: 145px;
+}
+
+.cart-row {
+  display: flex;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 248px;
+}
+.cart-header{
+	font-size: 36px;
+	height: 136px;
+	font-weight: 700;
+}
+.cart-items{
+	font-family: BluuNext-Bold;
+	font-size: 36px;
+}
+.delete{
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.cart-item-total{
+	position: absolute;
+	text-transform: none;
+	right: 0;
+}
+.cart-total span, .cart-price span, .cart-quantity span{
+	position: absolute;
+	right: 0;
+}
+.purchase{
+	border: 3px #731b25 solid;
+	width: 405px;
+    height: 49px;
+	background-color: transparent;
+	left: 53%;
+}
+
+.purchase:hover{
+	background: #d5babd;
+}
+.purchase:focus{
+	background: #a46a71;
+}
+.purchase, .Sum{
+	font-size: 30px;
+	font-weight: 700;
+	position: absolute;
+	margin-top:50px;
+}
+.Sum{
+	right: 0;
+}
+.cart-total-price{
+	text-transform: none;
+}
